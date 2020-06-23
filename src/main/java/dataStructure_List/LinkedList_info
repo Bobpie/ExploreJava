@@ -1,0 +1,16 @@
+Linked List is an one of the implementation class of the List interface.  It is one of the powerful implementation handling bigger list of data.  This is cost effiecent when compared to other implementations on a longer run.  
+
+List<Generic> list = new LinkedList<>();
+This line of code creates an empty Linked List, which means that this will have any minimum capacity as ArrayList.  This involves data which is linked with the pointer of the next node of data, so this grows on every step.  
+
+  list.add("Super");
+	list.add("Balaji");
+	list.add("Candy");
+	list.add("Super");
+	list.add("Clash");
+	list.add("Clan");
+  
+add() - this function helps us to add a new entity in the end of the LinkedList, but interestingly, this creates two spaces and it is called as a node.  Each node contains two partition, in which one partition holds the data and another partition holds the pointer or memory refernce of the next element.  
+
+While adding the first element, it creates a spl node called Head
+
